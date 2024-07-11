@@ -1,0 +1,19 @@
+body{
+  width: 375px;
+}
+#container{
+  width: 275px;
+}
+.name{
+  display: block;
+}
+.tick .split{
+  display: block;
+}
+.tick .split .px{
+  margin-bottom: 0.8rem;
+}
+.fill textarea{
+  width: 210px;
+  height: 170px;
+}

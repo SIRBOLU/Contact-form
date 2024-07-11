@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <script src="https://kit.fontawesome.com/0c946a0f71.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width:500px)" href="mobile.css">
+  <link rel="icon" href="favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+  <section id="container">
+
+    <h1>Contact Us</h1>
+
+    <div class="name">
+      <div class="first">
+        <label for="fn">First name * <br>
+          <input type="text" class="py">
+        </label>
+      </div>
+      <div class="last">
+        <label for="ln">Last name * <br>
+          <input type="text" class="py">
+        </label>
+      </div>
+    </div>
+
+    <div class="mail">
+      <label for="email">Email Address * <br>
+        <input type="email" class="py" id="email">
+      </label>
+    </div>
+
+    <div class="tick">
+      <p>Query Type *</p>
+      <div class="split">
+        <div class="box px">
+          <input type="radio" id="pick"><label for="pick">General Enquiry</label>
+        </div>
+        <div class="box">
+          <input type="radio" id="pick"><label for="pick">Support Request</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="query">
+      <label for="qt" class="qtt">Query Type * <br>
+        <div class="divide">
+          <input type="text" placeholder="General Enquiry" class="py">
+          <input type="text" placeholder="Support Request" class="py">
+        </div>
+      </label>
+    </div> -->
+
+    <div class="fill">Message * <br>
+      <textarea name="message" id="message" cols="62.5" rows="5">
+      </textarea>
+    </div>
+
+    <div class="check">
+      <input type="checkbox"> &nbsp; I consent to being contacted by the team * 
+    </div>
+
+    <div class="submit">
+      <p>submit</p>
+    </div>
+
+  </section>
+</body>
+</html>

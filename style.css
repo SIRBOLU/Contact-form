@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(148, 38%, 91%);
+  font-family:"Karla", sans-serif;
+  color: hsl(187, 24%, 22%);
+  /* display: flex; */
+  font-size: 12px;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.py{
+  border-radius: 5px;
+  border:grey solid 1px;
+  height: 2.3rem;
+  padding: 5px;
+  margin: 7px 0 1rem 0;
+}
+
+#container{
+  width: 550px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem;
+  margin-top: 5rem;
+  border-radius: 10px;
+  margin: 4rem auto;
+}
+
+h1{
+  padding-bottom: 1.3rem;
+  color: hsl(187, 24%, 22%);
+}
+
+.name{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.name input{
+  width: 100%;
+}
+
+.mail input{
+  width: 100%;
+}
+
+.query .divide{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.query input{
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.fill textarea{
+  /* width: 100%;
+  height: 80px; */
+  padding: 5px;
+  border-radius: 5px;
+  margin: 9px 0 2rem 0;
+}
+
+.check{
+  margin-bottom: 2rem;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  /* text-align: center; */
+  background-color: hsl(169, 82%, 27%);
+  color: white;
+  border-radius: 5px;
+  /* padding-top: 10px; */
+}
+
+
+.tick p{
+  margin-bottom: 12px;
+}
+
+.tick .split{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tick .split .box{
+  border-radius: 5px;
+  border:grey solid 1px;
+  height: 2.3rem;
+  padding: 5px;
+}
+
+.tick .split .box{
+  padding-left: 20px;
+  padding-top: 8px;
+}
+
+.tick .split .box label{
+  padding-left: 12px;
+}
